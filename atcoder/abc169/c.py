@@ -1,9 +1,7 @@
-k=int(input())
-a=7%k
-for i in range(1,k+1):
-    if a%k==0:
-        print(i)
-        break
-    a=(a*10+7)%k
-else:
-    print(-1)
+a,b=input().split()
+c=1
+if '.' in b:
+  c = len(b)-b.index('.')
+  b=b.replace('.','')
+a,b=int(a),int(b)
+print(a*b*10//(10**c))
