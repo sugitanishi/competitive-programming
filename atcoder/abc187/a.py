@@ -1,0 +1,1 @@
+print(max(map(lambda x:sum(map(int,x)),input().split())))
