@@ -1,0 +1,1 @@
+print(len([i for i in range(1,int(input())+1) if '7' not in str(i) and '7' not in oct(i)]))
