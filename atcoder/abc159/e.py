@@ -42,5 +42,3 @@ for i in range(2**(h-1)):
     if ff:
         ans=min(ans,len(cut_h)+len(cut_w)-3)
 print(ans)
-
-        
