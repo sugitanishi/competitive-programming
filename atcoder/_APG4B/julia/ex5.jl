@@ -1,0 +1,1 @@
+println(sum(parse.(Int64, split(readline()))))
